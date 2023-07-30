@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -394,7 +391,6 @@ public class Main {
 //        System.out.println(" your score = " +score + " of 5");
 
 
-
 //        String arr1[] = { "hello", "in" , "our", "new" , "word"};
 //        System.out.println(Arrays.toString(arr1));
 //
@@ -461,19 +457,133 @@ public class Main {
 //        System.out.println(cars);
 
 
-
 //        task1:
-        Scanner reed = new Scanner(System.in);
-        System.out.println("please enter the number of pans: ");
-        String num1 = reed.next();
-        System.out.println("please enter the number of rial : ");
-        String num2 = reed.next();
+//        Scanner reed = new Scanner(System.in);
+//        System.out.println("please enter the number of pans: ");
+//        String num1 = reed.next();
+//        System.out.println("please enter the number of rial : ");
+//        String num2 = reed.next();
+//
+//import java.util.Scanner;
+//
+//        public class task3 {
+//            public static void main(String[] args) {
+//                Scanner read = new Scanner(System.in);
+//                System.out.print("Enter a word: ");
+//                String input = read.nextLine();
+//
+//                String reversedString = new StringBuilder(input).reverse().toString();
+//                System.out.println("Reversed a word : " + reversedString);
 
+//        String [] name = { "reem", "mariyam"," miyasah", "fatima"};
+//        System.out.println( name[1][0]);
+//        Scanner read = new Scanner(System.in);
+//        System.out.print("Enter a word: ");
+//        String input = read.nextLine();
 
+//        String [] y = {"hi", "hello", "he"};
+//        String words[]=str.split("\\s");
+//        String reverseWord="";
+//        for(String w:words){
+//            StringBuilder sb=new StringBuilder(w);
+//            sb.reverse();
+//            reverseWord+=sb.toString()+" ";
+//        }
+//        return reverseWord.trim();
+//    }
+//        }
 
+//        String input;
+//        String[] words;
+//        int i;
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter a Sentence");
+//        input = scanner.nextLine();
+//        words = input.split(" ");
+//
+//
+//        System.out.println("Reversed Sentence");
+//        for (i = words.length - 1; i >= 0; i--) {
+//            System.out.print(words[i] + " ");
+
+//        Scanner read = new Scanner(System.in);
+//        System.out.println("Welcom to our game ");
+//        System.out.println("Enter your move: rock, secer, papper");
+//        String player1 = read.next();
+//        String player2 =
+
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Make a move! (rock/paper/scissors)");
+//        String playerMove = scanner.nextLine();
+//
+//
+//        Random random = new Random();
+//        int randomNumber = random.nextInt(3);
+//
+//        String computerMove;
+//        if (randomNumber == 0) {
+//            computerMove = "rock";
+//        } else if (randomNumber == 1) {
+//            computerMove = "paper";
+//        } else {
+//            computerMove = "scissors";
+//        }
+//        System.out.println("Computer chose " + computerMove + "!");
+//
+//
+//        if (playerMove.equals(computerMove)) {
+//            System.out.println("It's a draw!");
+//        } else if (playerWin(playerMove, computerMove)) {
+//            System.out.println("Player wins!");
+//        } else {
+//            System.out.println("Computer wins!");
+//        }
+
+//
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Welcome to our game!");
+//
+//        while (true) {
+//
+//
+//            System.out.print("What is your move? enter rock, paper, or scissors. ");
+//            String myMove = in.nextLine();
+//
+//            if (!myMove.equals("rock") && !myMove.equals("paper") && !myMove.equals("scissors")) {
+//
+//                System.out.println("Your move isn't valid!");
+//
+//            } else {
+//
+//                int rand = (int) (Math.random() * 3);
+//
+//                String opponentMove = "";
+//                if (rand == 0) {
+//                    opponentMove = "rock";
+//                } else if (rand == 1) {
+//                    opponentMove = "paper";
+//                } else {
+//                    opponentMove = "scissors";
+//                }
+//                System.out.println("Opponent move: " + opponentMove);
+//
+//                if (myMove.equals(opponentMove)) {
+//                    System.out.println("It's a tie!");
+//                } else if ((myMove.equals("rock") && opponentMove.equals("scissors"))
+//                        || (myMove.equals("scissors") && opponentMove.equals("paper"))
+//                        || (myMove.equals("paper") && opponentMove.equals("rock"))) {
+//                    System.out.println("You won!");
+//
+//                } else {
+//                    System.out.println("You lost!");
+//
+//
+//                }
+//
+//            }
+//        }
 
     }
 }
-
-
-
